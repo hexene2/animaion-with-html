@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;}
+
+body{
+    display: grid;
+    height: 100vh;
+    width:100vw;
+    grid-template-areas: "textbox preview""timeline timeline";
+}
+
+.textbox{
+    background-color: red;
+    grid-area: textbox;
+}
+
+
+.preview{
+    background-color: blue;
+    grid-area: preview;
+}
+
+
+.timeline{
+    background-color: green;
+    grid-area: timeline;
+}
+
+textarea{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+}
